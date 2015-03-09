@@ -1,4 +1,4 @@
-# SixArm.com » Apt » Scripts for system administration
+# Apt » Scripts for system administration
 
 Apt scripts to help with system administration:
 
