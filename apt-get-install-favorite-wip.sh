@@ -16,8 +16,6 @@ sudo apt-get install -y apache2-mpm-worker            `# Apache HTTP Server - hi
 sudo apt-get install -y apache2-suexec                `# Apache HTTP Server - standard suexec program for Apache 2 mod_suexec`
 sudo apt-get install -y apache2-suexec-custom         `# Apache HTTP Server - configurable suexec program for Apache 2 mod_suexec`
 sudo apt-get install -y apachetop                     `# Apache HTTP Server - Realtime monitoring tool`
-add-apt-repository -y ppa:nginx/stable && apt-get update
-sudo apt-get install -y nginx                         `# Powerful efficient web server and mail proxy`
 sudo apt-get install -y openssh-server                `# Secure shell (SSH) server, for secure access from remote machines`
 sudo apt-get install -y memcached                     `# A high-performance memory object caching system`
 sudo apt-get install -y memcachedb                    `# Persistent storage engine using the memcache protocol`
