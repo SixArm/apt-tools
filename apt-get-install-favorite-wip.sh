@@ -49,7 +49,7 @@ sudo apt-get install -y git-email                     `# Git - email add-on`
 sudo apt-get install -y git-gui                       `# Git - GUI`
 sudo apt-get install -y git-load-dirs                 `# Git - import upstream archives into git`
 sudo apt-get install -y git-svn                       `# Git - SVN interoperability`
-sudo apt-get install -y gitg                          `# Git repository viewer for gtk+/GNOME
+sudo apt-get install -y gitg                          `# Git repository viewer for gtk+/GNOME`
 sudo apt-get install -y gitk                          `# Git revision tree visualizer`
 sudo apt-get install -y gitmagic                      `# Git guide about Git version control system`
 sudo apt-get install -y gitosis                       `# Git repository hosting application`
