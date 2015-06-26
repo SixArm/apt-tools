@@ -193,7 +193,6 @@ sudo apt-get install -y ncurses-hexedit                 `# ncurses - Edit files/
 sudo apt-get install -y ncurses-runtime                 `# ncurses - Runtime`
 sudo apt-get install -y ncurses-term                    `# ncurses - Additional terminal type definitions`
 sudo apt-get install -y ndoutils-nagios3-mysql          `# This provides the NDOUtils for Nagios with MySQL support`
-sudo apt-get install -y nginx                           `# Powerful efficient web server and mail proxy`
 sudo apt-get install -y ntp                             `# Network Time Protocol daemon and utility programs`
 sudo apt-get install -y openshot                        `# Create and edit videos and movies`
 sudo apt-get install -y openssh-server                  `# Secure shell (SSH) server, for secure access from remote machines`
@@ -402,8 +401,8 @@ sudo apt-get install -y razor                           `# spam-catcher using a 
 sudo apt-get install -y readline-common                 `# GNU readline and history libraries, common files`
 sudo apt-get install -y redis-server                    `# Persistent key-value database with network interface`
 sudo apt-get install -y rsync                           `# fast remote file copy program (like rcp)`
-sudo apt-get install -y ruby                            `# Ruby - An interpreter of object-oriented scripting language Ruby`
 sudo apt-get install -y ruby-dev                        `# Ruby - Header files for compiling extension modules for Ruby`
+sudo apt-get install -y ruby-full                       `# Ruby - An interpreter of object-oriented scripting language Ruby`
 sudo apt-get install -y samba                           `# Samba - SMB/CIFS file, print, and login server for Unix`
 sudo apt-get install -y samba-common                    `# Samba - common files used by both the Samba server and client`
 sudo apt-get install -y screen                          `# terminal multiplexor with VT100/ANSI terminal emulation`
