@@ -48,5 +48,5 @@ sudo apt-get install -y python-twisted         `# Python - Event-based framework
 sudo apt-get install -y python-unit            `# Python - unit test framework`
 sudo apt-get install -y python-vobject         `# Python - parse iCalendar and VCards in Python`
 sudo apt-get install -y python-zope.interface  `# Python - Zope Interfaces for Python`
-sudo apt-get install -y ruby                   `# Ruby - An interpreter of object-oriented scripting language Ruby`
+sudo apt-get install -y ruby-full              `# Ruby - An interpreter of object-oriented scripting language Ruby`
 sudo apt-get install -y ruby-dev               `# Ruby - Header files for compiling extension modules for Ruby`
