@@ -86,7 +86,6 @@ sudo apt-get install -y git-buildpackage              `# Git - suite to help wit
 sudo apt-get install -y git-cola                      `# Git - highly caffeinated Git GUI`
 sudo apt-get install -y git-core                      `# Git - fast, scalable, distributed revision control system`
 sudo apt-get install -y git-cvs                       `# Git - CVS interoperability`
-sudo apt-get install -y git-daemon-run                `# Git - git-daemon service`
 sudo apt-get install -y git-doc                       `# Git - documentation`
 sudo apt-get install -y git-email                     `# Git - email add-on`
 sudo apt-get install -y git-gui                       `# Git - GUI`
