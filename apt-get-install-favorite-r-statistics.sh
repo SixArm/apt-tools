@@ -56,7 +56,6 @@ sudo apt-get install -y r-cran-fassets         `# R financial engineering - fAss
 sudo apt-get install -y r-cran-fbasics         `# R financial engineering - fBasics`
 sudo apt-get install -y r-cran-fbonds          `# R financial engineering - fBonds`
 sudo apt-get install -y r-cran-fcopulae        `# R financial engineering - fCopulae`
-sudo apt-get install -y r-cran-fecofin         `# R financial engineering - fEcofin`
 sudo apt-get install -y r-cran-fexoticoptions  `# R financial engineering - fExoticOptions`
 sudo apt-get install -y r-cran-fextremes       `# R financial engineering - fExtremes`
 sudo apt-get install -y r-cran-fgarch          `# R financial engineering - fGarch`

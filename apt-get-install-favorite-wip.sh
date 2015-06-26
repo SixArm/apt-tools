@@ -8,8 +8,19 @@ sudo apt-get install -y build-essential               `# Informational list of b
 
 ## Servers
 sudo apt-get install -y apache2                       `# Apache HTTP Server - metapackage`
-sudo apt-get install -y apache2-utils                 `# Apache HTTP Servier - utility programs`
+sudo apt-get install -y apache2-utils                 `# Apache HTTP Server - utility programs`
+sudo apt-get install -y apache2-doc                   `# Apache HTTP Server - documentation`
+sudo apt-get install -y apache2-mpm-event             `# Apache HTTP Server - event driven model`
+sudo apt-get install -y apache2-mpm-prefork           `# Apache HTTP Server - traditional non-threaded model`
+sudo apt-get install -y apache2-mpm-worker            `# Apache HTTP Server - high speed threaded model`
+sudo apt-get install -y apache2-suexec                `# Apache HTTP Server - standard suexec program for Apache 2 mod_suexec`
+sudo apt-get install -y apache2-suexec-custom         `# Apache HTTP Server - configurable suexec program for Apache 2 mod_suexec`
+sudo apt-get install -y apachetop                     `# Apache HTTP Server - Realtime monitoring tool`
+sudo apt-get install -y nginx                         `# Powerful efficient web server and mail proxy`
 sudo apt-get install -y openssh-server                `# Secure shell (SSH) server, for secure access from remote machines`
+sudo apt-get install -y memcached                     `# A high-performance memory object caching system`
+sudo apt-get install -y memcachedb                    `# Persistent storage engine using the memcache protocol`
+sudo apt-get install -y varnish                       `# High-performance HTTP accelerator`
 
 ## Databases
 sudo apt-get install -y mongodb                       `# An object/document-oriented database`
@@ -52,7 +63,6 @@ sudo apt-get install -y git-svn                       `# Git - SVN interoperabil
 sudo apt-get install -y gitg                          `# Git repository viewer for gtk+/GNOME`
 sudo apt-get install -y gitk                          `# Git revision tree visualizer`
 sudo apt-get install -y gitmagic                      `# Git guide about Git version control system`
-sudo apt-get install -y gitosis                       `# Git repository hosting application`
 sudo apt-get install -y gitpkg                        `# Git tools for maintaining Debian packages with git`
 sudo apt-get install -y gitstats                      `# Git statistics generator for git repositories`
 sudo apt-get install -y subversion                    `# Subversion - advanced version control system`
@@ -115,7 +125,6 @@ sudo apt-get install -y php5-mysql                    `# MySQL module for php5`
 sudo apt-get install -y ndoutils-nagios3-mysql        `# This provides the NDOUtils for Nagios with MySQL support`
 sudo apt-get install -y perlmagick                    `# Perl interface to the ImageMagick graphics routines`
 sudo apt-get install -y libotr2                       `# Off-the-Record Messaging library`
-sudo apt-get install -y libotr2-bin                   `# Off-the-Record Messaging library - toolkit`
 sudo apt-get install -y libotr2-dev                   `# Off-the-Record Messaging library - development files`
 sudo apt-get install -y libpq-dev                     `# header files for libpq5 (PostgreSQL library)`
 sudo apt-get install -y pyqt-tools                    `# pyuic and pylupdate for Qt3`

@@ -20,7 +20,6 @@ sudo apt-get install -y luarocks               `# Lua - deployment and managemen
 sudo apt-get install -y luasocket              `# Lua - TCP/UDP socket library`
 sudo apt-get install -y php5                   `# PHP - server-side, HTML-embedded scripting language (metapackage)`
 sudo apt-get install -y python                 `# Python - an interactive high-level object-oriented language (default version)`
-sudo apt-get install -y python-central         `# Python - register and build utility for Python packages`
 sudo apt-get install -y python-configobj       `# Python - simple but powerful config file reader and writer for Python`
 sudo apt-get install -y python-dateutil        `# Python - powerful extensions to the standard datetime module`
 sudo apt-get install -y python-dev             `# Python - Header files and a static library for Python (default)`
