@@ -1,3 +1,4 @@
+
 sudo apt-get install -y ant                    `# Java based build tool like make`
 sudo apt-get install -y ant-doc                `# Java based build tool like make - API documentation and manual`
 sudo apt-get install -y clojure                `# Lisp dialect for the JVM`
@@ -13,11 +14,10 @@ sudo apt-get install -y ivy                    `# The agile dependency manager`
 sudo apt-get install -y ivy-doc                `# The agile dependency manager (documentation)`
 sudo apt-get install -y javahelp2              `# Java help system`
 sudo apt-get install -y jruby                  `# 100% pure-Java implementation of Ruby`
-sudo apt-get install -y lua                    `# Lua - small embeddable language with simple procedural syntax`
+sudo apt-get install -y lua5.2                 `# Lua - small embeddable language with simple procedural syntax`
 sudo apt-get install -y luadoc                 `# Lua - documentation generator`
 sudo apt-get install -y luajit                 `# Lua - Just In Time compiler`
 sudo apt-get install -y luarocks               `# Lua - deployment and management system for modules`
-sudo apt-get install -y luasocket              `# Lua - TCP/UDP socket library`
 sudo apt-get install -y php5                   `# PHP - server-side, HTML-embedded scripting language (metapackage)`
 sudo apt-get install -y python                 `# Python - an interactive high-level object-oriented language (default version)`
 sudo apt-get install -y python-configobj       `# Python - simple but powerful config file reader and writer for Python`
@@ -50,3 +50,32 @@ sudo apt-get install -y python-vobject         `# Python - parse iCalendar and V
 sudo apt-get install -y python-zope.interface  `# Python - Zope Interfaces for Python`
 sudo apt-get install -y ruby-full              `# Ruby - An interpreter of object-oriented scripting language Ruby`
 sudo apt-get install -y ruby-dev               `# Ruby - Header files for compiling extension modules for Ruby`
+
+## LLVM
+sudo apt-get install -y llvm
+
+## Haskell
+sudo apt-get install -y libghc-cgi-dev
+sudo apt-get install -y libghc-fgl-dev
+sudo apt-get install -y libghc-glut-dev
+sudo apt-get install -y libghc-haskell-src-dev
+sudo apt-get install -y libghc-html-dev libghc-http-dev
+sudo apt-get install -y libghc-hunit-dev libghc-mtl-dev
+sudo apt-get install -y libghc-network-dev
+sudo apt-get install -y libghc-opengl-dev
+sudo apt-get install -y libghc-parallel-dev
+sudo apt-get install -y libghc-parsec3-dev
+sudo apt-get install -y libghc-quickcheck2-dev
+sudo apt-get install -y libghc-regex-base-dev
+sudo apt-get install -y libghc-regex-compat-dev
+sudo apt-get install -y libghc-regex-posix-dev
+sudo apt-get install -y libghc-stm-dev
+sudo apt-get install -y libghc-syb-dev
+sudo apt-get install -y libghc-text-dev
+sudo apt-get install -y libghc-transformers-dev
+sudo apt-get install -y libghc-xhtml-dev
+sudo apt-get install -y libghc-zlib-dev
+sudo apt-get install -y ghc                    `# The Glasgow Haskell Compilation system`
+sudo apt-get install -y alex                   `# lexical analyser generator for Haskell`
+sudo apt-get install -y cabal-install          `# command-line interface for Cabal and Hackage`
+sudo apt-get install -y happy                  `# Parser generator foh Haskell`
