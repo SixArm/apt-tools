@@ -8,9 +8,7 @@ sudo apt-get install -y cheese                          `# Take pictures and vid
 sudo apt-get install -y chromium-browser                `# Chromium browser`
 sudo apt-get install -y chromium-browser-l10n           `# Chromium browser - language packages`
 sudo apt-get install -y chromium-codecs-ffmpeg          `# Chromium browser - free ffmpeg codecs`
-sudo apt-get install -y chromium-codecs-ffmpeg-extra    `# Chromium browser - extra ffmpeg codecs`
 sudo apt-get install -y digikam                         `# Digital photo management application [KDE]`
-sudo apt-get install -y electricsheep                   `# Screensaver showing collective dream of sleeping computers`
 sudo apt-get install -y gimp                            `# The GNU Image Manipulation Program`
 sudo apt-get install -y inkscape                        `# Vector-based drawing program`
 sudo apt-get install -y istanbul                        `# Desktop session recorder producing Ogg Theora video`

@@ -8,6 +8,9 @@ set -euf -o pipefail
 #
 # This script removes all old kernels while keeping the running kernel.
 #
+#
+# ## Caution
+#
 # For your comfort and safety, please upgrade your system
 # then reboot before you execute this command to make sure
 # the latest kernel is installed and running successfully.
@@ -15,13 +18,34 @@ set -euf -o pipefail
 # If you get an error, make sure you are running the
 # current kernel version, i.e. upgrade then reboot.
 #
+#
+# ## Implementation Notes
+#
+# We prefer `apt remove --purge` over `apt purge` because the former
+# continues to work on older systems, as well as on modern systems.
+#
 # Note: The plus (+) sign behind a package name inverts the meaning.
 # So in the commands below, the plus keeps the running kernel version.
 # The uname command finds your actual kernel package version and type.
 #
-# Author: Joel Parker Henderson (joel@joelparkerhenderson.com)
+# An alternative implementation can be:
+#
+#     dpkg --list |
+#     grep linux-image |
+#     awk '{ print $2 }' |
+#     sort -V |
+#     sed -n '/'`uname -r`'/q;p' |
+#     xargs sudo apt-get purge
+#
+#
+# ## Tracking
+#
+# Command: apt-purge-old-kernels-and-headers
+# Version: 3.0.0
+# Created: 2012-11-01
+# Updated: 2017-03-31
 # License: GPL
-# Updated: 2015-01-25
+# Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 ##
 
 apt-get remove --purge 'linux-image-[0-9].*' linux-image-$(uname -r)+
